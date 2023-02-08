@@ -38,3 +38,13 @@
 .search-input:placeholder-shown {
   text-indent: 5%;
 }
+.product-card {
+  transition: 0.5s;
+  padding: 20px;
+}
+.card-area {
+  margin-top: 10px;
+}
+.product-card:hover {
+  transform: scale(1.1);
+}
