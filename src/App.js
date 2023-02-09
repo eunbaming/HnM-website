@@ -5,10 +5,13 @@ import ProductAll from './page/ProductAll';
 import Login from './page/Login';
 import ProductDetail from './page/ProductDetail';
 import Navbar from './component/Navbar';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [authenticate, setAuthenticate] = useState(false)
+  useEffect (() => {
+    console.log(authenticate)
+  }, [authenticate])
 
   return (
     <div>
@@ -16,7 +19,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<ProductAll></ProductAll>}></Route>
-        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/login' element={<Login setAuthenticate={setAuthenticate}></Login>}></Route>
         <Route path='/product/:id' element={<ProductDetail></ProductDetail>}></Route>
       </Routes>
     </div>
