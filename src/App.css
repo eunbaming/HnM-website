@@ -4,6 +4,7 @@
   position: absolute;
   top: 30px;
   right: 40px;
+  cursor: pointer;
 }
 .login {
   margin-left: 10px;
@@ -48,3 +49,5 @@
 .product-card:hover {
   transform: scale(1.1);
 }
+
+
