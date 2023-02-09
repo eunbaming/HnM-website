@@ -6,6 +6,7 @@ import Login from './page/Login';
 import ProductDetail from './page/ProductDetail';
 import Navbar from './component/Navbar';
 import { useState, useEffect } from 'react';
+import PrivateRoute from './route/PrivateRoute';
 
 function App() {
   const [authenticate, setAuthenticate] = useState(false)
@@ -18,9 +19,9 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={<ProductAll></ProductAll>}></Route>
-        <Route path='/login' element={<Login setAuthenticate={setAuthenticate}></Login>}></Route>
-        <Route path='/product/:id' element={<ProductDetail></ProductDetail>}></Route>
+        <Route path='/' element={<ProductAll />}></Route>
+        <Route path='/login' element={<Login setAuthenticate={setAuthenticate} />}></Route>
+        <Route path='/product/:id' element={<PrivateRoute authenticate={authenticate} />}></Route>
       </Routes>
     </div>
   );
