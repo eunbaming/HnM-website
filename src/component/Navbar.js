@@ -11,6 +11,13 @@ const Navbar = () => {
   const goToLogin = () => {
     navigate('/login')
   }
+  const search = (event) => {
+    if(event.key === "Enter") {
+      console.log("We click this key", event.key)
+      let keyword = event.target.value
+      navigate(`/?q=${keyword}`)
+    }
+  }
 
   return (
     <div>
@@ -29,7 +36,7 @@ const Navbar = () => {
         </ul>
         <div className='search-area'>
           <FontAwesomeIcon icon={faSearch} />
-          <input className='search-input' type='text' placeholder='제품 검색' />
+          <input className='search-input' type='text' placeholder='제품 검색' onKeyPress={(event) => search(event)} />
         </div>
       </div>
     </div>
