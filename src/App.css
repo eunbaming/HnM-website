@@ -50,4 +50,26 @@
   transform: scale(1.1);
 }
 
-
+.detail-container {
+  margin-top: 40px;
+}
+.detail-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.dropdown-toggle {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  margin-top: 10px;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
+.dropdown-toggle:hover {
+  background-color: #000;
+  border-bottom: #000;
+  color: #fff;
+}
+.btn-dark {
+  width: 400px;
+  margin-top: 30px;
+}
