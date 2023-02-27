@@ -1,28 +1,28 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-regular-svg-icons'
-import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
-import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import React, { useState }from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-regular-svg-icons';
+import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = ({authenticate, setAuthenticate}) => {
-  const menuList = ['여성', 'Divided', '남성', '신생아/유아', '아동', 'H&M HOME', 'Sale', '지속가능성']
-  const navigate = useNavigate()
-  const [width, setWidth] = useState(0)
+  const menuList = ['여성', 'Divided', '남성', '신생아/유아', '아동', 'H&M HOME', 'Sale', '지속가능성'];
+  const navigate = useNavigate();
+  const [width, setWidth] = useState(0);
 
   const goToLogin = () => {
-    navigate('/login')
-  }
+    navigate('/login');
+  };
+  const goToMainPage = () => {
+    navigate('/');
+  };
+
   const search = (event) => {
     if(event.key === "Enter") {
-      console.log("We click this key", event.key)
-      let keyword = event.target.value
-      navigate(`/?q=${keyword}`)
-    }
-  }
-  const goToMainPage = () => {
-    navigate('/')
-  }
+      let keyword = event.target.value;
+      navigate(`/?q=${keyword}`);
+    };
+  };
 
   return (
     <div>
@@ -49,7 +49,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             <div className='login'>로그인</div>
           </div>
         )}
-        </div>
+      </div>
       
       <div className='nav-section'>
         <img width={100} src='https://blog.kakaocdn.net/dn/Yt80C/btqDeJAYUBo/JQbTuukRladq2AUOeqgiEK/img.jpg' onClick={goToMainPage}/>
@@ -65,6 +65,6 @@ const Navbar = ({authenticate, setAuthenticate}) => {
       </div>
     </div>
   )
-}
+};
 
-export default Navbar
+export default Navbar;

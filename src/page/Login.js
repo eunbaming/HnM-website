@@ -1,15 +1,15 @@
-import React from 'react'
-import { Button, Form, Container } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import React from 'react';
+import { Button, Form, Container } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const Login = ({setAuthenticate}) => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   const loginUser = (event) => {
-    event.preventDefault()
-    console.log("login user function issue")
-    setAuthenticate(true)
-    navigate('/')
-  }
+    event.preventDefault();
+    setAuthenticate(true);
+    navigate('/');
+  };
 
   return (
     <Container>
@@ -34,6 +34,6 @@ const Login = ({setAuthenticate}) => {
     </Form>
     </Container>
   )
-}
+};
 
-export default Login
+export default Login;

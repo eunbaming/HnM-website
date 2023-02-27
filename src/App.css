@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-/* Navbar */
+/* navbar */
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -11,9 +11,6 @@ body {
 .login-button {
   display: flex;
   justify-content: flex-end;
-  /* position: absolute;
-  top: 30px;
-  right: 40px; */
   margin-top: 30px;
   margin-right: 20px;
   cursor: pointer;
@@ -63,51 +60,7 @@ body {
   color: transparent;
 }
 
-/* ProductCard */
-.product-card {
-  transition: 0.5s;
-  padding: 20px;
-}
-.card-area {
-  margin-top: 10px;
-}
-.product-card:hover {
-  transform: scale(1.1);
-}
-
-/* ProductDetail */
-.detail-container {
-  margin-top: 40px;
-}
-.detail-img {
-  display: flex;
-  justify-content: flex-end;
-}
-.dropdown-toggle {
-  background-color: #fff;
-  border-color: #000;
-  color: #000;
-  margin-top: 10px;
-}
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
-.dropdown-toggle:hover {
-  background-color: #000;
-  border-bottom: #000;
-  color: #fff;
-}
-.btn-dark {
-  width: 350px;
-  margin-top: 30px;
-}
-
-.login-form {
-  margin: 10px 80px 0 80px;
-}
-.login-form .btn-danger {
-  width: 300px;
-}
-
-/* Navbar - sidebar */
+/* navbar - sidebar */
 .hide {
   visibility: hidden;
 }
@@ -153,8 +106,58 @@ body {
 }
 .burger-menu {
   margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 25px;
   cursor: pointer;
+  font-size: 20px;
+}
+
+/* product card */
+.product-card-area {
+  display: flex;
+  justify-content: center;
+}
+.product-card {
+  transition: 0.5s;
+  padding: 20px;
+}
+.card-area {
+  margin-top: 10px;
+}
+.product-card:hover {
+  transform: scale(1.1);
+}
+
+/* product detail */
+.detail-container {
+  margin-top: 40px;
+}
+.detail-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.dropdown-toggle {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  margin-top: 10px;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
+.dropdown-toggle:hover {
+  background-color: #000;
+  border-bottom: #000;
+  color: #fff;
+}
+.btn-dark {
+  width: 350px;
+  margin-top: 30px;
+}
+
+/* login */
+.login-form {
+  margin: 10px 80px 0 80px;
+}
+.login-form .btn-danger {
+  width: 300px;
 }
 
 @media screen and (max-width : 63rem) {
@@ -181,5 +184,14 @@ body {
   }
   .login-form .btn-danger {
     width: 200px;
+  }
+  .detail-img {
+    display: flex;
+    justify-content: center;
+  }
+  .detail-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
