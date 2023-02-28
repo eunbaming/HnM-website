@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# HnM 쇼핑몰 웹사이트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React route를 이용한 반응형 쇼핑몰 웹페이지 구축
 
-## Available Scripts
+![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
 
-In the project directory, you can run:
++ Demo : https://hnm-website.vercel.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 개발 목표
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 페이지, 로그인 페이지를 구축 및 반응형으로 개발
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 사용 기술
 
-### `npm run build`
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eunbaming)](https://github.com/eunbaming/github-readme-stats)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Advanced Feature
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ 미디어 쿼리를 이용한 반응형 웹페이지
 
-### `npm run eject`
+[Web ver.]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![HnM-website](https://user-images.githubusercontent.com/110072947/221725602-2fdf70b5-2552-425d-a060-942fbfab3996.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![HnM-website](https://user-images.githubusercontent.com/110072947/221725683-d0554cc9-d819-4acc-901f-dd1747d0e2ab.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Mobile ver.]
 
-## Learn More
+![HnM-website](https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![HnM-website](https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![HnM-website](https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png)
 
-### Code Splitting
+![HnM-website](https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
++ 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
 
-### Analyzing the Bundle Size
+![HnM-website](https://user-images.githubusercontent.com/110072947/221727174-695dc4fe-6a48-42f0-ba67-62b4cd738950.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
++ private page를 만들어서 로그인을 안하고 상품을 검색하면 로그인 페이지를, 로그인을 한 상태라면 상품 디테일 페이지로 보이도록 개발
 
-### Making a Progressive Web App
+```javascript
+import React from 'react';
+import ProductDetail from '../page/ProductDetail';
+import { Navigate } from 'react-router-dom';
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+const PrivateRoute = ({authenticate}) => {
+  return authenticate == true ? <ProductDetail /> : <Navigate to="/login" />
+};
 
-### Advanced Configuration
+export default PrivateRoute;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 개선 사항
 
-### `npm run build` fails to minify
++ 상품 검색 뿐만 아니라 카테고리를 눌렀을 때에도 상품이 검색 필요
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
++ web버전 로그인 페이지를 사용자의 편의에 맞게 개선된 디자인 필요
+
+
+
