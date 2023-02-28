@@ -4,7 +4,7 @@ React route를 이용한 반응형 쇼핑몰 웹페이지 구축
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
 
-+ Demo : https://hnm-website.vercel.app/
++ Demo : https://louis-vuitton-page.vercel.app/
 
 
 ### 개발 목표
@@ -14,12 +14,16 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 
 ### 사용 기술
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eunbaming)](https://github.com/eunbaming/github-readme-stats)
+<a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=React Router&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/></a>
 
 
 ### Advanced Feature
 
-+ 미디어 쿼리를 이용한 반응형 웹페이지
++ Media Query를 이용한 반응형 웹페이지
 
 [Web ver.]
 
@@ -31,13 +35,11 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 
 [Mobile ver.]
 
-<img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400">
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png" width="400"></a>
 
-<img src="https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png" width="400">
-
-<img src="https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png" width="400">
-
-<img src="https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png" width="400">
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png" width="400"><a href="#">
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png" width="400"><a href="#">
 
 + 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
 
