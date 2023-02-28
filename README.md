@@ -1,16 +1,21 @@
 # HnM 쇼핑몰 웹사이트
 
+
 React route를 이용한 반응형 쇼핑몰 웹페이지 구축
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
 
 + Demo : https://louis-vuitton-page.vercel.app/
 
+<br/>
+<br/>
 
 ### 개발 목표
 
 React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 페이지, 로그인 페이지를 구축 및 반응형으로 개발
 
+<br/>
+<br/>
 
 ### 사용 기술
 
@@ -20,30 +25,16 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 <a href="#"><img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=React Router&logoColor=white"/></a>
 <a href="#"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/></a>
 
+<br/>
+<br/>
 
 ### Advanced Feature
-
-+ Media Query를 이용한 반응형 웹페이지
-
-[Web ver.]
-
-![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
-
-![HnM-website](https://user-images.githubusercontent.com/110072947/221725602-2fdf70b5-2552-425d-a060-942fbfab3996.png)
-
-![HnM-website](https://user-images.githubusercontent.com/110072947/221725683-d0554cc9-d819-4acc-901f-dd1747d0e2ab.png)
-
-[Mobile ver.]
-
-<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400"></a>
-<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png" width="400"></a>
-
-<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png" width="400"><a href="#">
-<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png" width="400"><a href="#">
 
 + 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221727174-695dc4fe-6a48-42f0-ba67-62b4cd738950.png)
+
+<br/>
 
 + private page를 만들어서 로그인을 안하고 상품을 검색하면 로그인 페이지를, 로그인을 한 상태라면 상품 디테일 페이지로 보이도록 개발
 
@@ -59,6 +50,26 @@ const PrivateRoute = ({authenticate}) => {
 export default PrivateRoute;
 ```
 
+<br/>
+
++ Media Query를 이용한 반응형 웹페이지 개발
+
+[Web ver.]
+
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png" width="250"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725602-2fdf70b5-2552-425d-a060-942fbfab3996.png" width="250"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725683-d0554cc9-d819-4acc-901f-dd1747d0e2ab.png" width="250"></a>
+
+[Mobile ver.]
+
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png" width="400"></a>
+
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png" width="400"><a href="#">
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png" width="400"><a href="#">
+
+<br/>
+<br/>
 
 # 개선 사항
 
