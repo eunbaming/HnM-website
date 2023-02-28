@@ -37,7 +37,7 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png)
 
-![HnM-website](https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png)
+![HnM-website](https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png){: width="50%" height="50%"}
 
 + 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
 
@@ -56,7 +56,6 @@ const PrivateRoute = ({authenticate}) => {
 
 export default PrivateRoute;
 ```
-
 
 
 # 개선 사항
