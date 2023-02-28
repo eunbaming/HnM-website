@@ -31,13 +31,13 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 
 [Mobile ver.]
 
-![HnM-website](https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png)
+<img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400">
 
-![HnM-website](https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png)
+<img src="https://user-images.githubusercontent.com/110072947/221725991-41133847-6dde-4c7c-9fa8-aeb6db47a2f5.png" width="400">
 
-![HnM-website](https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png)
+<img src="https://user-images.githubusercontent.com/110072947/221726081-18ccffed-405e-401c-b257-c509e9978dd6.png" width="400">
 
-![HnM-website](https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png){: width="50%" height="50%"}
+<img src="https://user-images.githubusercontent.com/110072947/221726160-625bce93-d360-485f-b27f-05126cb3bddf.png" width="400">
 
 + 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
 
