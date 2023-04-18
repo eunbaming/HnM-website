@@ -141,7 +141,11 @@ body {
   color: #000;
   margin-top: 10px;
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active,
 .dropdown-toggle:hover {
   background-color: #000;
   border-bottom: #000;
@@ -153,14 +157,20 @@ body {
 }
 
 /* login */
-.login-form {
-  margin: 10px 80px 0 80px;
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.login-form .btn-danger {
-  width: 300px;
+.login-form {
+  margin-top: 20px;
+  width: 60%;
+}
+.login-form-button {
+  width: 250px;
 }
 
-@media screen and (max-width : 63rem) {
+@media screen and (max-width: 63rem) {
   .hide {
     visibility: visible;
   }
