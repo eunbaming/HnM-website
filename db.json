@@ -3,23 +3,59 @@
     {
       "id": 0,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/a1/b1/a1b1f8aea79f5ccdef6bf711dc82f49e5aa6c8e5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "벨티드 트윌 코트",
-      "price": 99900,
+      "title": "크레이프 퍼프 슬리브 드레스",
+      "price": 49900,
       "choice": true,
-      "new": true,
+      "new": false,
       "size": ["S", "M", "L"]
     },
     {
       "id": 1,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/af/50/af50afa939c28ba24fd263fb573b4ad5f0858b14.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
-      "title": "슬림핏 맘 하이웨이스트 앵클 진",
-      "price": 29900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/13/cd/13cd5c6b46ead7d7af4fb208c28a87df180fa4df.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "타이 프런트 셔츠 드레스",
+      "price": 39900,
       "choice": true,
-      "new": true,
+      "new": false,
       "size": ["S", "M", "L"]
     },
     {
       "id": 2,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/06/96/069620a8c84a7baa7090a4115c3267bed2a834c2.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "크레이프 랩스타일 드레스",
+      "price": 29900,
+      "choice": false,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 3,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/f7/29/f729e9f6db6c6a4de63e01a23d028efae9af4573.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "벨티드 버튼 프런트 드레스",
+      "price": 59900,
+      "choice": false,
+      "new": true,
+      "size": ["S", "M"]
+    },
+    {
+      "id": 4,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/83/74/83742e650eac0ea4eda588cda36e088d2198e20c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "벌룬 슬리브 스모킹 드레스",
+      "price": 49900,
+      "choice": true,
+      "new": false,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 5,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/af/50/af50afa939c28ba24fd263fb573b4ad5f0858b14.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "title": "슬림핏 맘 하이웨이스트 앵클 진",
+      "price": 29900,
+      "choice": false,
+      "new": false,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 6,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/ac/f4/acf4837639644cf245bf79d57f1d460f0aa3139f.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
       "title": "와이드 하이웨이스트 진",
       "price": 39900,
@@ -28,81 +64,45 @@
       "size": ["S", "M", "L"]
     },
     {
-      "id": 3,
+      "id": 7,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/9a/45/9a450ecb25c9d7ae6a2d90cd984c2a426cac40c6.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
       "title": "퍼프 슬리브 드레스",
       "price": 39900,
-      "choice": false,
-      "new": true,
-      "size": ["S", "M"]
-    },
-    {
-      "id": 4,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/0f/46/0f463d61dbddb48bea8e329d9693f17fbff7f925.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "프릴 디테일 블라우스",
-      "price": 29900,
-      "choice": true,
-      "new": false,
-      "size": ["S", "M", "L"]
-    },
-    {
-      "id": 5,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/95/20/9520af2b69e69ef18fbad1d2673d47b1afe2b107.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "자카드 셔츠 드레스",
-      "price": 39900,
-      "choice": false,
-      "new": false,
-      "size": ["S", "M", "L"]
-    },
-    {
-      "id": 6,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/66/eb/66ebc8ebbdc939176137327d43db5c22d2d0292f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "더블 브레스티드 재킷",
-      "price": 39900,
-      "choice": true,
-      "new": false,
-      "size": ["S", "M", "L"]
-    },
-    {
-      "id": 7,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/be/3c/be3cfb9b7d99937f42b99b859dee546f8a3216b7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "오버사이즈 집업 후디",
-      "price": 99900,
       "choice": false,
       "new": true,
       "size": ["S", "M", "L"]
     },
     {
       "id": 8,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/ad/e9/ade9a2fa40f186b2db875ceb35ca279ca99b300a.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "프린트 크롭트 탑",
-      "price": 14900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/65/89/6589f0727f26695db60f5a5edab6e0650430cb94.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "리넨 블렌드 드레스",
+      "price": 39900,
       "choice": true,
       "new": true,
       "size": ["S", "M", "L"]
     },
     {
       "id": 9,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/44/a9/44a926e37e57244c829c3f7a049fc8aa629d276e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "프린트 티셔츠",
-      "price": 19900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/19/52/1952c3643862d5e9370526e0ff7d5db6dd875711.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "퍼프 슬리브 텍스처 저지 드레스",
+      "price": 24900,
       "choice": false,
       "new": true,
       "size": ["S", "M", "L"]
     },
     {
       "id": 10,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/fa/54/fa547c437bf08076aa46dd66f1a2e6a2cf4a4e3e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "와이드 트윌 팬츠",
-      "price": 19900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/da/8b/da8bf5fbbb7c5b41c32b80af675ee6353d39f228.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "리브니트 스웨터 베스트",
+      "price": 14900,
       "choice": true,
       "new": false,
       "size": ["S", "M", "L"]
     },
     {
       "id": 11,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/d1/aa/d1aa5d5d4a3d0699689e7f6187514ad70dc958d6.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "플레어 로라이즈 진",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/06/15/0615be3f366ea5bdcfe8c61f521f03a84e0d720c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "오버사이즈 프린트 티셔츠",
       "price": 29900,
       "choice": true,
       "new": true,
@@ -110,18 +110,18 @@
     },
     {
       "id": 12,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/ec/6c/ec6c0b3d387ce9b51d68ee440b979291e929c773.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "프린트 크롭트 탑",
-      "price": 14900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/0b/ec/0bec6762dba651fa566a19272d39f5cbb08ba637.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "슬리브리스 크롭트 탑",
+      "price": 9900,
       "choice": true,
       "new": true,
       "size": ["S", "M", "L"]
     },
     {
       "id": 13,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/37/43/37434b12a61d3e75cb8e7fcb2e0b6cd6ca028c5f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "플레어 로라이즈 진",
-      "price": 29900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/ab/67/ab67f60a58b4d0774fc8abeb3c5e2bd77d4b88c7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "하이웨이스트 테일러드 팬츠",
+      "price": 34900,
       "choice": false,
       "new": false,
       "size": ["S", "M", "L"]
