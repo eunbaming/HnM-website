@@ -112,20 +112,24 @@ body {
 }
 
 /* product card */
-.product-card-area {
+/* .product-card-area {
   display: flex;
   justify-content: center;
-}
-.product-card {
+} */
+.products {
+  margin-top: 15px;
   transition: 0.5s;
-  padding: 20px;
+  cursor: pointer;
 }
-.card-area {
-  margin-top: 10px;
-}
-.product-card:hover {
+.products:hover {
   transform: scale(1.1);
 }
+/* .card-area {
+  margin-top: 10px;
+} */
+/* .product-card:hover {
+  transform: scale(1.1);
+} */
 
 /* product detail */
 .detail-container {
