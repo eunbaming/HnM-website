@@ -10,7 +10,7 @@ const ProductCard = ({ item }) => {
   };
 
   return (
-    <div className="products" onClick={() => showDetail()}>
+    <div className="products" onClick={showDetail}>
       <a>
         <img width={300} src={item?.img} />
       </a>
