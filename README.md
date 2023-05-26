@@ -1,7 +1,6 @@
 # HnM 쇼핑몰 웹사이트
 
-
-React route를 이용한 반응형 쇼핑몰 웹페이지 구축
+<br/>
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221722617-c8eabcbf-a247-447f-95dc-8c2ef3f89617.png)
 
@@ -30,13 +29,13 @@ React route를 사용하여 메인페이지 뿐만 아니라 상품 디테일 �
 
 ### Advanced Feature
 
-+ 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 개발
++ 상품 검색 시 해당 키워드에 부합하는 상품이 보이도록 구현
 
 ![HnM-website](https://user-images.githubusercontent.com/110072947/221727174-695dc4fe-6a48-42f0-ba67-62b4cd738950.png)
 
 <br/>
 
-+ private page를 만들어서 로그인을 안하고 상품을 검색하면 로그인 페이지를, 로그인을 한 상태라면 상품 디테일 페이지로 보이도록 개발
++ private page를 만들어서 로그인을 안하고 상품을 검색하면 로그인 페이지를, 로그인을 한 상태라면 상품 디테일 페이지로 보이도록 기능 현구현
 
 ```javascript
 import React from 'react';
